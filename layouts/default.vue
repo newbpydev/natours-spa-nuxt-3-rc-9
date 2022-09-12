@@ -1,7 +1,7 @@
 <template>
   <div>
     <TheHeader />
-    
+
     <main>
       <slot />
     </main>
@@ -9,7 +9,8 @@
 </template>
 
 <script setup lang="ts">
-import "@/assets/css/style.css";
+// import "@/assets/css/style.css";
+// import "@/assets/scss/main.scss";
 
 useHead({
   title: "Natours | Exciting tours for adventurous people",

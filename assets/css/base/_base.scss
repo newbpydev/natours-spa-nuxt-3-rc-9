@@ -1,0 +1,15 @@
+/* Base Resetting the default styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%;
+  /*# 10/16 = .625 = 62.5% = 10px */
+}
+

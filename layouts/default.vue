@@ -23,10 +23,6 @@ useHead({
       href: "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900",
       rel: "stylesheet",
     },
-    {
-      href: "@/assets/css/icon-font.css",
-      rel: "stylesheet",
-    },
   ],
 });
 </script>

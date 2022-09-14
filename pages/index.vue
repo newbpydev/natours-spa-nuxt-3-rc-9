@@ -1,4 +1,5 @@
 <template>
+  <!-- # Section About -->
   <section class="section-about">
     <div class="u-center-text u-margin-bottom-big">
       <h2 class="heading-secondary">Exiting tours for adventurous people</h2>
@@ -49,6 +50,7 @@
     </div>
   </section>
 
+  <!-- # Section Features -->
   <section class="section-features">
     <div class="row">
       <div class="col-1-of-4">
@@ -98,6 +100,160 @@
     </div>
   </section>
 
+  <!-- # Section Tours -->
+  <section class="section-tours">
+    <div class="u-center-text u-margin-bottom-big">
+      <h2 class="heading-secondary">Most popular tours</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-1-of-3">
+        <!-- * Card 1 -->
+        <div class="card">
+          <!-- * Card Front -->
+          <div class="card__side card__side--front">
+            <div class="card__picture card__picture--1">&nbsp;</div>
+            <!-- * Card__heading -->
+            <h4 class="card__heading">
+              <span class="card__heading-span card__heading-span--1"
+                >The Sea Explorer</span
+              >
+            </h4>
+            <!-- * Card__details -->
+            <div class="card__details">
+              <ul>
+                <li>3 day tours</li>
+                <li>Up to 30 people</li>
+                <li>2 tour guides</li>
+                <li>Sleep in cozy hotels</li>
+                <li>Difficulty: easy</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- * Card Back -->
+          <div class="card__side card__side--back card__side--back-1">
+            <!-- * Card CTA -->
+            <div class="card__cta">
+              <div class="card__price-box">
+                <p class="card__price-only">Only</p>
+                <p class="card__price-value">$297</p>
+              </div>
+              <a href="#" class="btn btn--white">Book Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1-of-3">
+        <!-- * Card 2 -->
+        <div class="card">
+          <!-- * Card Front -->
+          <div class="card__side card__side--front">
+            <div class="card__picture card__picture--2">&nbsp;</div>
+            <!-- * Card__heading -->
+            <h4 class="card__heading">
+              <span class="card__heading-span card__heading-span--2"
+                >The Forest Hiker</span
+              >
+            </h4>
+            <!-- * Card__details -->
+            <div class="card__details">
+              <ul>
+                <li>7 day tours</li>
+                <li>Up to 40 people</li>
+                <li>6 tour guides</li>
+                <li>Sleep in provided tents</li>
+                <li>Difficulty: medium</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- * Card Back -->
+          <div class="card__side card__side--back card__side--back-2">
+            <!-- * Card CTA -->
+            <div class="card__cta">
+              <div class="card__price-box">
+                <p class="card__price-only">Only</p>
+                <p class="card__price-value">$497</p>
+              </div>
+              <a href="#" class="btn btn--white">Book Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1-of-3">
+        <!-- * Card 3 -->
+        <div class="card">
+          <!-- * Card Front -->
+          <div class="card__side card__side--front">
+            <div class="card__picture card__picture--3">&nbsp;</div>
+            <!-- * Card__heading -->
+            <h4 class="card__heading">
+              <span class="card__heading-span card__heading-span--3"
+                >The Snow Adventurer</span
+              >
+            </h4>
+            <!-- * Card__details -->
+            <div class="card__details">
+              <ul>
+                <li>5 day tours</li>
+                <li>Up to 15 people</li>
+                <li>3 tour guides</li>
+                <li>Sleep in provided tents</li>
+                <li>Difficulty: hard</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- * Card Back -->
+          <div class="card__side card__side--back card__side--back-3">
+            <!-- * Card CTA -->
+            <div class="card__cta">
+              <div class="card__price-box">
+                <p class="card__price-only">Only</p>
+                <p class="card__price-value">$897</p>
+              </div>
+              <a href="#" class="btn btn--white">Book Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="u-center-text u-margin-top-huge">
+      <a href="#" class="btn btn--green">Discover all tours</a>
+    </div>
+  </section>
+
+  <!-- # Section Stories -->
+  <section class="section-stories">
+    <!-- * Heading -->
+    <div class="u-center-text u-margin-bottom-big">
+      <h2 class="heading-secondary">We make people genuinely happy</h2>
+    </div>
+
+    <!-- * Heading -->
+    <div class="row">
+      <div class="story">
+        <figure class="story__shape">
+          <img src="@/assets/img/nat-8.jpg" alt="Person on the tour" class="story__image" />
+        </figure>
+        <div class="story__text">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            I had the best week ever with my family
+          </h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+            perspiciatis repudiandae accusantium neque nihil ipsum laboriosam
+            sit alias recusandae deleniti nisi unde, dignissimos maxime quia aut
+            cum at. Eaque, in.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
   <!--   
   <section class="grid-test">
     <div class="row">

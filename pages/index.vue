@@ -1,5 +1,5 @@
 <template>
-  <!-- # Section About -->
+  <!-- * Section About -->
   <section class="section-about">
     <div class="u-center-text u-margin-bottom-big">
       <h2 class="heading-secondary">Exiting tours for adventurous people</h2>
@@ -50,7 +50,7 @@
     </div>
   </section>
 
-  <!-- # Section Features -->
+  <!-- * Section Features -->
   <section class="section-features">
     <div class="row">
       <div class="col-1-of-4">
@@ -100,7 +100,7 @@
     </div>
   </section>
 
-  <!-- # Section Tours -->
+  <!-- * Section Tours -->
   <section class="section-tours">
     <div class="u-center-text u-margin-bottom-big">
       <h2 class="heading-secondary">Most popular tours</h2>
@@ -227,18 +227,32 @@
     </div>
   </section>
 
-  <!-- # Section Stories -->
+  <!-- * Section Stories -->
   <section class="section-stories">
-    <!-- * Heading -->
+    <!-- @ BG Video -->
+    <div class="bg-video">
+      <video class="bg-video__content" autoplay muted loop>
+        <source src="@/assets/img/video.mp4" type="video/mp4" >
+        <source src="@/assets/img/video.webm" type="video/webm" >
+        Your browser is not supported!
+      </video>
+    </div>
+
+    <!-- @ Section Heading -->
     <div class="u-center-text u-margin-bottom-big">
       <h2 class="heading-secondary">We make people genuinely happy</h2>
     </div>
 
-    <!-- * Heading -->
+    <!-- @ Story 1 -->
     <div class="row">
       <div class="story">
         <figure class="story__shape">
-          <img src="@/assets/img/nat-8.jpg" alt="Person on the tour" class="story__image" />
+          <img
+            src="@/assets/img/nat-8.jpg"
+            alt="Person on the tour"
+            class="story__image"
+          />
+          <figcaption class="story__caption">Mary Smith</figcaption>
         </figure>
         <div class="story__text">
           <h3 class="heading-tertiary u-margin-bottom-small">
@@ -248,10 +262,42 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
             perspiciatis repudiandae accusantium neque nihil ipsum laboriosam
             sit alias recusandae deleniti nisi unde, dignissimos maxime quia aut
-            cum at. Eaque, in.
+            cum at. Eaque, repudiandae accusantium neque nihil ipsum laboriosam
+            sit alias recusandae deleniti nisi unde.
           </p>
         </div>
       </div>
+    </div>
+
+    <!-- @ Story 2 -->
+    <div class="row">
+      <div class="story">
+        <figure class="story__shape">
+          <img
+            src="@/assets/img/nat-9.jpg"
+            alt="Person on the tour"
+            class="story__image"
+          />
+          <figcaption class="story__caption">Jack Wilson</figcaption>
+        </figure>
+        <div class="story__text">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            WOW! My life is completely different now!
+          </h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+            perspiciatis repudiandae accusantium neque nihil ipsum laboriosam
+            sit alias recusandae deleniti nisi unde, dignissimos maxime quia aut
+            cum at. Eaque, repudiandae accusantium neque nihil ipsum laboriosam
+            sit alias recusandae deleniti nisi unde.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- @ Button -->
+    <div class="u-center-text u-margin-top-huge">
+      <a href="#" class="btn-text">Read all stories &rarr;</a>
     </div>
   </section>
   <!--   

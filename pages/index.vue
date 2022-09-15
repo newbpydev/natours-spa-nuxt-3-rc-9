@@ -232,8 +232,8 @@
     <!-- @ BG Video -->
     <div class="bg-video">
       <video class="bg-video__content" autoplay muted loop>
-        <source src="@/assets/img/video.mp4" type="video/mp4" >
-        <source src="@/assets/img/video.webm" type="video/webm" >
+        <source src="@/assets/img/video.mp4" type="video/mp4" />
+        <source src="@/assets/img/video.webm" type="video/webm" />
         Your browser is not supported!
       </video>
     </div>
@@ -298,6 +298,78 @@
     <!-- @ Button -->
     <div class="u-center-text u-margin-top-huge">
       <a href="#" class="btn-text">Read all stories &rarr;</a>
+    </div>
+  </section>
+
+  <!-- * Section Book -->
+  <section class="section-book">
+    <!-- @ row -->
+    <div class="row">
+      <div class="book">
+        <!-- # Book Form -->
+        <div class="book__form">
+          <form action="#" class="form">
+            <!-- $ Form Heading -->
+            <div class="u-margin-bottom-medium">
+              <h2 class="heading-secondary">Start booking now</h2>
+            </div>
+
+            <!-- $ Form Input Group -->
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                placeholder="Full Name"
+                required
+              />
+              <label for="name" class="form__label">Full name</label>
+            </div>
+            <div class="form__group">
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                placeholder="Email address"
+                required
+              />
+              <label for="email" class="form__label">Email address</label>
+            </div>
+
+            <!-- $ Form Radio Input Group -->
+            <div class="form__group u-margin-bottom-medium">
+              <div class="form__radio-group">
+                <input
+                  type="radio"
+                  class="form__radio-input"
+                  id="small"
+                  name="size"
+                />
+                <label for="small" class="form__radio-label">
+                  <span class="form__radio-button"></span>
+                  Small tour group</label
+                >
+              </div>
+              <div class="form__radio-group">
+                <input
+                  type="radio"
+                  class="form__radio-input"
+                  id="large"
+                  name="size"
+                />
+                <label for="large" class="form__radio-label">
+                  <span class="form__radio-button"></span>
+                  Large tour group</label
+                >
+              </div>
+            </div>
+
+            <div class="form__group">
+              <button class="btn btn--green">Next step &rarr;</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
   <!--   
